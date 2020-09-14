@@ -106,7 +106,7 @@ h3 {
   border-bottom: 1px solid #5b6468;
 }
 .column-left {
-  width: 110px;
+  width: 120px;
   font-weight: bold;
 }
 .column-right {
@@ -115,30 +115,6 @@ h3 {
 }
 
 .about-hero-hobies {
-}
-.grid {
-  display: grid;
-  grid: repeat(2, 1fr) / repeat(3, 1fr);
-  margin: 1em 0 0;
-  height: 240px;
-  width: 270px;
-}
-
-.grid__cell {
-  margin: 0 auto;
-}
-
-.grid__img {
-  width: 60px;
-  height: 60px;
-  margin: 10px auto;
-}
-.grid__title {
-  margin: 0;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #313941;
 }
 
 .flex-container {

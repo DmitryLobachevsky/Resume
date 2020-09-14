@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+.header {
+  height: 50px;
+  background-color: #313941;
+  color: #e9ebf0;
+}
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 945px;
+  margin: 0 auto;
+}
+.title {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+/*hero*/
+
+.hero {
+  background-color: #455058;
+  height: 180px;
+}
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-subdescription {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.hero-name {
+  margin-top: 60px;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.hero-position {
+  margin-top: 12px;
+  color: #969fa6;
+}
+.hero-img {
+  margin: auto 0;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 50%;
+  background-image: url("../img/fox_new.jpg");
+  background-repeat: no-repeat;
+  background-position: center top -5px;
+  border: 5px solid #fff;
+}
+
+.about-hero .container {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 1 33.333%;
+  flex-wrap: wrap;
+}
+
+h3 {
+  margin-top: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 18px;
+  color: #455058;
+}
+
+
+.about-hero-personal {
+}
+
+.personal-title,
+.software-title {
+  margin-bottom: 2px;
+}
+
+.table {
+  border-spacing: 0 8px;
+}
+
+.table-column {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #5b6468;
+  border-bottom: 1px solid #5b6468;
+}
+.column-left {
+  width: 110px;
+  font-weight: bold;
+}
+.column-right {
+  width: 160px;
+  font-weight: 300;
+}
+
+.about-hero-hobies {
+}
+.grid {
+  display: grid;
+  grid: repeat(2, 1fr) / repeat(3, 1fr);
+  margin: 1em 0 0;
+  border-bottom: 0;
+  border-right: 0;
+  height: 200px;
+  width: 270px;
+}
+.grid__img {
+  margin: 10px auto;
+}
+.grid__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #313941;
+}
+
+.about-hero-software {
+}
+
+.software-table {
+  border-spacing: 10px 15px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #5b6468;
+}
+
+.skil-name {
+  width: 135px;
+}
+
+.skil {
+  width: 135px;
+  height: 8px;
+  background-color: #d8d9da;
+}
+.slkil__html {
+  width: 80%;
+  height: 8px;
+  background-color: #454f55;
+}
+.skil__css {
+  width: 75%;
+  height: 8px;
+  background-color: #454f55;
+}
+.skil__html {
+  width: 60%;
+  height: 8px;
+  background-color: #454f55;
+}
+.skil__vs-code {
+  width: 100%;
+  height: 8px;
+  background-color: #454f55;
+}
+.skil__scrum {
+  width: 85%;
+  height: 8px;
+  background-color: #454f55;
+}
+
+.about-hero-education {
+}
+
+.education__description {
+  width: 100%;
+  color: #313940;
+}
+
+.hero-description {
+  height: 120px;
+  padding-top: 5px;
+  background-color: #bbc2c8;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #455058;
+}
+
+/*footer*/
+
+.footer {
+    height: 120px;
+    background-color: #455058;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-linck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.img-link {
+}
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}

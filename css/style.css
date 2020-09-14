@@ -60,6 +60,7 @@ body {
 }
 .hero-img {
   margin: auto 0;
+  margin-right: 60px;
   width: 150px;
   height: 150px;
   background-color: #fff;
@@ -224,7 +225,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 10px;
 }
 .img-link {
@@ -232,4 +233,12 @@ h3 {
 .link {
   text-decoration: none;
   color: #ffffff;
+}
+
+.git-img {
+  margin-top: -5px;
+}
+
+.git-link {
+  margin-top: -8px;
 }

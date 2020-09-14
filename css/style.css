@@ -195,6 +195,9 @@ h3 {
 
 .education__description {
   width: 100%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
   color: #313940;
 }
 
@@ -208,6 +211,25 @@ h3 {
   font-size: 15px;
   line-height: 17px;
   color: #455058;
+}
+
+.course {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  background-color: #ccd3d8;
+}
+
+.course-title {
+  margin-top: 0;
+}
+
+.course-for-me {
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #455058;
+
 }
 
 /*footer*/
